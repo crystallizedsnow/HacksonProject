@@ -17,6 +17,12 @@ spring:
         url: jdbc:mysql://localhost/wos?useUnicode=true&characterEncoding=UTF-8
         username: root
         password: 123456
+    data:
+        redis:
+            host: localhost
+            port: 6379
+            password: 123456
+            timeout: 2000
 
 knife4j:
     enable: true
